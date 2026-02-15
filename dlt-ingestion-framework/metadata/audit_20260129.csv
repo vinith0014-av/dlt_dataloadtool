@@ -1,0 +1,29 @@
+timestamp,job_name,status,rows_processed,duration_seconds,partition_path,error_message
+2026-01-29T11:34:57.408590,postgres_source.orders,FAILED,0,34.91,,'int' object has no attribute 'get'
+2026-01-29T11:34:57.810282,postgres_source.orders,FAILED,0,0.35,,'DestinationCapabilitiesContext' object has no attribute 'merge_strategy'
+2026-01-29T11:35:14.176011,oracle_db.employees,FAILED,0,16.36,,'int' object has no attribute 'get'
+2026-01-29T11:35:28.199980,Source1.users,FAILED,0,14.01,,'int' object has no attribute 'get'
+2026-01-29T11:35:48.251411,coingecko.crypto_price,FAILED,0,20.04,,'int' object has no attribute 'get'
+2026-01-29T11:36:07.625920,postgres_source.orders,FAILED,0,14.18,,'int' object has no attribute 'get'
+2026-01-29T11:36:07.819481,postgres_source.orders,FAILED,0,0.18,,'DestinationCapabilitiesContext' object has no attribute 'merge_strategy'
+2026-01-29T11:36:20.684371,oracle_db.employees,FAILED,0,12.86,,'int' object has no attribute 'get'
+2026-01-29T11:36:32.290793,Source1.users,FAILED,0,11.59,,'int' object has no attribute 'get'
+2026-01-29T11:36:44.419730,coingecko.crypto_price,FAILED,0,12.12,,'int' object has no attribute 'get'
+2026-01-29T11:38:52.634006,postgres_source.orders,SUCCESS,3,14.34,postgres_source/orders/2026/01/29,
+2026-01-29T11:38:52.835280,postgres_source.orders,FAILED,0,0.19,,'DestinationCapabilitiesContext' object has no attribute 'merge_strategy'
+2026-01-29T11:39:04.169199,oracle_db.employees,SUCCESS,100,11.3,oracle_db/employees/2026/01/29,
+2026-01-29T11:39:16.249127,Source1.users,SUCCESS,3,12.04,Source1/users/2026/01/29,
+2026-01-29T11:39:29.194769,coingecko.crypto_price,SUCCESS,100,12.91,coingecko/crypto_price/2026/01/29,
+2026-01-29T11:48:41.100519,postgres_source.orders,SUCCESS,3,28.37,postgres_source/orders/2026/01/29,
+2026-01-29T11:48:55.884835,postgres_source.orders,SUCCESS,3,14.71,postgres_source/orders/2026/01/29,
+2026-01-29T11:49:09.528274,oracle_db.employees,SUCCESS,100,13.61,oracle_db/employees/2026/01/29,
+2026-01-29T11:49:23.574588,Source1.users,SUCCESS,3,14.03,Source1/users/2026/01/29,
+2026-01-29T11:49:37.592813,coingecko.crypto_price,SUCCESS,100,14.0,coingecko/crypto_price/2026/01/29,
+2026-01-29T15:06:31.863612,postgres_source.orders,SUCCESS,3,18.5,postgres_source/orders/2026/01/29,
+2026-01-29T15:06:48.113179,postgres_source.orders,SUCCESS,3,16.19,postgres_source/orders/2026/01/29,
+2026-01-29T15:07:01.936311,oracle_db.employees,SUCCESS,100,13.81,oracle_db/employees/2026/01/29,
+2026-01-29T15:07:16.690211,Source1.users,SUCCESS,3,14.74,Source1/users/2026/01/29,
+2026-01-29T15:07:22.169365,coingecko.crypto_price,FAILED,0,5.4,,"Pipeline execution failed at `step=extract` when processing package with `load_id=1769679439.804958` with exception:
+
+<class 'dlt.extract.exceptions.ResourceExtractionError'>
+In processing pipe `crypto_price`: extraction of resource `crypto_price` in `generator` `paginate_resource` caused an exception: 401 Client Error: Unauthorized for url: https://api.coingecko.com/api/v3/coins/markets"

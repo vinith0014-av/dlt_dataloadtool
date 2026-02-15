@@ -1,0 +1,17 @@
+timestamp,job_name,status,rows_processed,duration_seconds,partition_path,error_message
+2026-02-01T19:31:41.016526,postgres_source.orders,FAILED,0,0.03,,sql_table(): got an unexpected keyword argument 'columns'
+2026-02-01T19:31:41.106961,postgres_source.orders,FAILED,0,0.07,,sql_table(): got an unexpected keyword argument 'columns'
+2026-02-01T19:31:41.112515,oracle_db.employees,FAILED,0,0.0,,sql_table(): got an unexpected keyword argument 'columns'
+2026-02-01T19:31:41.120766,Source1.users,FAILED,0,0.0,,sql_table(): got an unexpected keyword argument 'columns'
+2026-02-01T19:31:48.271846,coingecko.crypto_price,FAILED,0,7.15,,"Pipeline execution failed at `step=extract` when processing package with `load_id=1769954507.0012114` with exception:
+
+<class 'dlt.extract.exceptions.ResourceExtractionError'>
+In processing pipe `crypto_price`: extraction of resource `crypto_price` in `generator` `paginate_resource` caused an exception: 401 Client Error: Unauthorized for url: https://api.coingecko.com/api/v3/coins/markets"
+2026-02-01T19:34:30.430371,postgres_source.orders,SUCCESS,3,13.16,postgres_source/orders/2026/02/01,
+2026-02-01T19:34:40.059608,postgres_source.orders,SUCCESS,3,9.62,postgres_source/orders/2026/02/01,
+2026-02-01T19:34:47.796130,oracle_db.employees,SUCCESS,100,7.73,oracle_db/employees/2026/02/01,
+2026-02-01T19:34:55.513649,Source1.users,SUCCESS,3,7.71,Source1/users/2026/02/01,
+2026-02-01T19:34:56.310350,coingecko.crypto_price,FAILED,0,0.79,,"Pipeline execution failed at `step=extract` when processing package with `load_id=1769954695.548132` with exception:
+
+<class 'dlt.extract.exceptions.ResourceExtractionError'>
+In processing pipe `crypto_price`: extraction of resource `crypto_price` in `generator` `paginate_resource` caused an exception: 401 Client Error: Unauthorized for url: https://api.coingecko.com/api/v3/coins/markets"

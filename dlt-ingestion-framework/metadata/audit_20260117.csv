@@ -1,0 +1,89 @@
+timestamp,job_name,status,rows_processed,duration_seconds,partition_path,error_message
+2026-01-17T13:04:11.005797,postgres_source.orders,SUCCESS,0,25.08,postgres_source/orders/2026/01/17,
+2026-01-17T13:04:18.497431,postgres_source.orders,SUCCESS,0,7.46,postgres_source/orders/2026/01/17,
+2026-01-17T13:04:22.378168,oracle_db.employees,FAILED,0,3.84,,"Pipeline execution failed at `step=extract` when processing package with `load_id=1768635261.8335133` with exception:
+
+<class 'dlt.extract.exceptions.ResourceExtractionError'>
+In processing pipe `employees`: extraction of resource `employees` in `generator` `table_rows` caused an exception: (oracledb.exceptions.DatabaseError) DPY-4027: no configuration directory specified
+(Background on this error at: https://sqlalche.me/e/20/4xp6)"
+2026-01-17T13:04:22.385146,MyDb.Employees,FAILED,0,0.0,,'port'
+2026-01-17T13:04:47.767476,postgres_source.orders,SUCCESS,0,16.91,postgres_source/orders/2026/01/17,
+2026-01-17T13:04:55.626113,postgres_source.orders,SUCCESS,0,7.83,postgres_source/orders/2026/01/17,
+2026-01-17T13:05:00.602092,oracle_db.employees,FAILED,0,4.93,,"Pipeline execution failed at `step=extract` when processing package with `load_id=1768635299.5273721` with exception:
+
+<class 'dlt.extract.exceptions.ResourceExtractionError'>
+In processing pipe `employees`: extraction of resource `employees` in `generator` `table_rows` caused an exception: (oracledb.exceptions.DatabaseError) DPY-4027: no configuration directory specified
+(Background on this error at: https://sqlalche.me/e/20/4xp6)"
+2026-01-17T13:05:02.641966,MyDb.Employees,FAILED,0,2.03,,"Pipeline execution failed at `step=extract` when processing package with `load_id=1768635302.526` with exception:
+
+<class 'dlt.extract.exceptions.ResourceExtractionError'>
+In processing pipe `Employees`: extraction of resource `Employees` in `generator` `table_rows` caused an exception: (pyodbc.InterfaceError) ('IM002', '[IM002] [Microsoft][ODBC Driver Manager] Data source name not found and no default driver specified (0) (SQLDriverConnect)')
+(Background on this error at: https://sqlalche.me/e/20/rvf5)"
+2026-01-17T13:15:42.885454,postgres_source.orders,SUCCESS,0,25.57,postgres_source/orders/2026/01/17,
+2026-01-17T13:15:50.631206,postgres_source.orders,SUCCESS,0,7.74,postgres_source/orders/2026/01/17,
+2026-01-17T13:15:52.446550,oracle_db.employees,FAILED,0,1.8,,"Pipeline execution failed at `step=extract` when processing package with `load_id=1768635952.3580685` with exception:
+
+<class 'dlt.extract.exceptions.ResourceExtractionError'>
+In processing pipe `employees`: extraction of resource `employees` in `generator` `table_rows` caused an exception: (oracledb.exceptions.DatabaseError) DPY-4027: no configuration directory specified
+(Background on this error at: https://sqlalche.me/e/20/4xp6)"
+2026-01-17T13:15:54.206423,MyDb.Employees,FAILED,0,1.75,,"Pipeline execution failed at `step=extract` when processing package with `load_id=1768635954.1373067` with exception:
+
+<class 'dlt.extract.exceptions.ResourceExtractionError'>
+In processing pipe `Employees`: extraction of resource `Employees` in `generator` `table_rows` caused an exception: (pyodbc.InterfaceError) ('IM002', '[IM002] [Microsoft][ODBC Driver Manager] Data source name not found and no default driver specified (0) (SQLDriverConnect)')
+(Background on this error at: https://sqlalche.me/e/20/rvf5)"
+2026-01-17T13:20:06.349975,postgres_source.orders,SUCCESS,0,9.99,postgres_source/orders/2026/01/17,
+2026-01-17T13:20:14.018712,postgres_source.orders,SUCCESS,0,7.66,postgres_source/orders/2026/01/17,
+2026-01-17T13:20:15.764221,oracle_db.employees,FAILED,0,1.74,,"Pipeline execution failed at `step=extract` when processing package with `load_id=1768636215.6948767` with exception:
+
+<class 'dlt.extract.exceptions.ResourceExtractionError'>
+In processing pipe `employees`: extraction of resource `employees` in `generator` `table_rows` caused an exception: (oracledb.exceptions.DatabaseError) DPY-4027: no configuration directory specified
+(Background on this error at: https://sqlalche.me/e/20/4xp6)"
+2026-01-17T13:20:17.431726,MyDb.Employees,FAILED,0,1.66,,"Pipeline execution failed at `step=extract` when processing package with `load_id=1768636217.3648314` with exception:
+
+<class 'dlt.extract.exceptions.ResourceExtractionError'>
+In processing pipe `Employees`: extraction of resource `Employees` in `generator` `table_rows` caused an exception: (pyodbc.InterfaceError) ('IM002', '[IM002] [Microsoft][ODBC Driver Manager] Data source name not found and no default driver specified (0) (SQLDriverConnect)')
+(Background on this error at: https://sqlalche.me/e/20/rvf5)"
+2026-01-17T13:56:24.620067,postgres_source.orders,SUCCESS,0,39.11,postgres_source/orders/2026/01/17,
+2026-01-17T13:56:34.615656,postgres_source.orders,SUCCESS,0,9.92,postgres_source/orders/2026/01/17,
+2026-01-17T13:56:41.481172,oracle_db.employees,FAILED,0,6.8,,"Pipeline execution failed at `step=extract` when processing package with `load_id=1768638400.0023184` with exception:
+
+<class 'dlt.extract.exceptions.ResourceExtractionError'>
+In processing pipe `employees`: extraction of resource `employees` in `generator` `table_rows` caused an exception: (oracledb.exceptions.DatabaseError) DPY-4027: no configuration directory specified
+(Background on this error at: https://sqlalche.me/e/20/4xp6)"
+2026-01-17T13:56:44.812795,MyDb.Employees,FAILED,0,3.26,,"Pipeline execution failed at `step=extract` when processing package with `load_id=1768638404.4373147` with exception:
+
+<class 'dlt.extract.exceptions.ResourceExtractionError'>
+In processing pipe `Employees`: extraction of resource `Employees` in `generator` `table_rows` caused an exception: (pyodbc.InterfaceError) ('IM002', '[IM002] [Microsoft][ODBC Driver Manager] Data source name not found and no default driver specified (0) (SQLDriverConnect)')
+(Background on this error at: https://sqlalche.me/e/20/rvf5)"
+2026-01-17T14:00:20.791031,postgres_source.orders,SUCCESS,0,13.5,postgres_source/orders/2026/01/17,
+2026-01-17T14:00:31.053577,postgres_source.orders,SUCCESS,0,10.24,postgres_source/orders/2026/01/17,
+2026-01-17T14:00:33.844981,oracle_db.employees,FAILED,0,2.72,,"Pipeline execution failed at `step=extract` when processing package with `load_id=1768638633.4791563` with exception:
+
+<class 'dlt.extract.exceptions.ResourceExtractionError'>
+In processing pipe `employees`: extraction of resource `employees` in `generator` `table_rows` caused an exception: (oracledb.exceptions.DatabaseError) DPY-4027: no configuration directory specified
+(Background on this error at: https://sqlalche.me/e/20/4xp6)"
+2026-01-17T14:00:51.270265,MyDb.Employees,FAILED,0,17.35,,"Pipeline execution failed at `step=extract` when processing package with `load_id=1768638635.90502` with exception:
+
+<class 'dlt.extract.exceptions.ResourceExtractionError'>
+In processing pipe `Employees`: extraction of resource `Employees` in `generator` `table_rows` caused an exception: (pyodbc.OperationalError) ('08001', '[08001] [Microsoft][ODBC Driver 17 for SQL Server]TCP Provider: No such host is known.\r\n (11001) (SQLDriverConnect); [08001] [Microsoft][ODBC Driver 17 for SQL Server]Login timeout expired (0); [08001] [Microsoft][ODBC Driver 17 for SQL Server]A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online. (11001)')
+(Background on this error at: https://sqlalche.me/e/20/e3q8)"
+2026-01-17T14:02:34.376134,postgres_source.orders,SUCCESS,0,13.31,postgres_source/orders/2026/01/17,
+2026-01-17T14:02:43.866569,postgres_source.orders,SUCCESS,0,9.47,postgres_source/orders/2026/01/17,
+2026-01-17T14:02:47.492457,oracle_db.employees,FAILED,0,3.6,,"Pipeline execution failed at `step=extract` when processing package with `load_id=1768638766.4203837` with exception:
+
+<class 'dlt.extract.exceptions.ResourceExtractionError'>
+In processing pipe `employees`: extraction of resource `employees` in `generator` `table_rows` caused an exception: employees"
+2026-01-17T14:03:04.889522,MyDb.Employees,FAILED,0,17.37,,"Pipeline execution failed at `step=extract` when processing package with `load_id=1768638769.5802176` with exception:
+
+<class 'dlt.extract.exceptions.ResourceExtractionError'>
+In processing pipe `Employees`: extraction of resource `Employees` in `generator` `table_rows` caused an exception: (pyodbc.OperationalError) ('08001', '[08001] [Microsoft][ODBC Driver 17 for SQL Server]TCP Provider: No such host is known.\r\n (11001) (SQLDriverConnect); [08001] [Microsoft][ODBC Driver 17 for SQL Server]Login timeout expired (0); [08001] [Microsoft][ODBC Driver 17 for SQL Server]A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online. (11001)')
+(Background on this error at: https://sqlalche.me/e/20/e3q8)"
+2026-01-17T14:03:53.730570,postgres_source.orders,SUCCESS,0,13.25,postgres_source/orders/2026/01/17,
+2026-01-17T14:04:03.982963,postgres_source.orders,SUCCESS,0,10.21,postgres_source/orders/2026/01/17,
+2026-01-17T14:04:06.274330,oracle_db.employees,FAILED,0,2.28,,"Pipeline execution failed at `step=extract` when processing package with `load_id=1768638846.080617` with exception:
+
+<class 'dlt.extract.exceptions.ResourceExtractionError'>
+In processing pipe `employees`: extraction of resource `employees` in `generator` `table_rows` caused an exception: employees"
+2026-01-17T14:06:02.288101,postgres_source.orders,SUCCESS,0,13.51,postgres_source/orders/2026/01/17,
+2026-01-17T14:06:12.025015,postgres_source.orders,SUCCESS,0,9.73,postgres_source/orders/2026/01/17,
+2026-01-17T14:06:25.947198,oracle_db.employees,SUCCESS,0,13.9,oracle_db/employees/2026/01/17,

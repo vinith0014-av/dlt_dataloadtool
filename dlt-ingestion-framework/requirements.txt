@@ -1,0 +1,68 @@
+# ============================================================================
+# DLT Ingestion Framework v2.1 - Production Dependencies
+# ============================================================================
+# Install: pip install -r requirements.txt
+# 
+# For Azure Data Lake: pip install dlt[az]
+# For Parquet support: pip install dlt[parquet]
+# ============================================================================
+
+# -----------------------------------------------------------------------------
+# Core - dlthub data loading framework
+# -----------------------------------------------------------------------------
+dlt[filesystem,sql_database]>=1.4.0
+
+# -----------------------------------------------------------------------------
+# Configuration Management
+# -----------------------------------------------------------------------------
+pandas>=2.0.0              # Excel configuration parsing
+openpyxl>=3.1.0            # Excel file support (.xlsx)
+toml>=0.10.2               # TOML secrets file parsing
+pydantic>=2.0.0            # Type-safe configuration models & validation
+pydantic-settings>=2.0.0   # Settings management
+
+# -----------------------------------------------------------------------------
+# Database Drivers
+# -----------------------------------------------------------------------------
+psycopg2-binary>=2.9.0     # PostgreSQL driver
+oracledb>=1.3.0            # Oracle thin client (no Oracle install needed)
+pyodbc>=5.0.0              # SQL Server / Azure SQL (requires ODBC Driver 17)
+
+# -----------------------------------------------------------------------------
+# Azure Cloud Integration
+# -----------------------------------------------------------------------------
+azure-storage-blob>=12.19.0  # ADLS Gen2 blob storage
+azure-identity>=1.15.0       # Azure authentication (CLI, Managed Identity, SPN)
+adlfs>=2023.4.0              # Azure Data Lake filesystem for DLT
+
+# Optional: Azure Key Vault for production secrets
+azure-keyvault-secrets>=4.7.0
+
+# -----------------------------------------------------------------------------
+# Data Processing
+# -----------------------------------------------------------------------------
+pyarrow>=14.0.0            # Parquet file format & columnar processing
+sqlalchemy>=1.4.0          # Database abstraction layer
+
+# -----------------------------------------------------------------------------
+# Filesystem Support (required by DLT filesystem destination)
+# -----------------------------------------------------------------------------
+s3fs>=2022.4.0             # S3-compatible filesystem (also used for Azure)
+fsspec>=2022.4.0           # Filesystem abstraction
+
+# -----------------------------------------------------------------------------
+# HTTP/API Support (for REST API ingestion)
+# -----------------------------------------------------------------------------
+requests>=2.28.0           # HTTP client for API connectivity tests
+
+# -----------------------------------------------------------------------------
+# Development & Testing
+# -----------------------------------------------------------------------------
+pytest>=8.0.0              # Testing framework
+pytest-cov>=4.1.0          # Coverage reporting
+pytest-mock>=3.12.0        # Enhanced mocking
+pytest-xdist>=3.5.0        # Parallel test execution
+black>=24.0.0              # Code formatting
+ruff>=0.2.0                # Fast linting
+mypy>=1.8.0                # Static type checking
+

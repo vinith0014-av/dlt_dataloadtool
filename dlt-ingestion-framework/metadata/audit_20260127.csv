@@ -1,0 +1,191 @@
+timestamp,job_name,status,rows_processed,duration_seconds,partition_path,error_message
+2026-01-27T10:41:35.489684,postgres_source.orders,FAILED,0,5.01,,"Pipeline execution failed at `step=sync` with exception:
+
+<class 'dlt.common.configuration.exceptions.ConfigFieldMissingException'>
+Missing 1 field(s) in configuration `FilesystemDestinationClientConfiguration`: `bucket_url`
+for field `bucket_url` the following (config provider, key) were tried in order:
+  (Environment Variables, POSTGRESQL_TO_ADLS_POSTGRES_SOURCE__DESTINATION__FILESYSTEM__BUCKET_URL)
+  (Environment Variables, POSTGRESQL_TO_ADLS_POSTGRES_SOURCE__DESTINATION__BUCKET_URL)
+  (Environment Variables, POSTGRESQL_TO_ADLS_POSTGRES_SOURCE__BUCKET_URL)
+  (Environment Variables, DESTINATION__FILESYSTEM__BUCKET_URL)
+  (Environment Variables, DESTINATION__BUCKET_URL)
+  (Environment Variables, BUCKET_URL)
+NOTE: following fields in `FilesystemDestinationClientConfiguration` got resolved: `credentials`
+Provider `secrets.toml` probed but not found the following locations:
+	- C:\Users\Vinithkumar.Perumal\OneDrive - insidemedia.net\Documents\dlt_ingestion_copy\dlt_ingestion - Copy\.dlt\secrets.toml
+	- C:\Users\Vinithkumar.Perumal\.dlt\secrets.toml
+WARNING: provider `secrets.toml` is empty. Locations (i.e., files) are missing or empty.
+Provider `config.toml` probed but not found the following locations:
+	- C:\Users\Vinithkumar.Perumal\OneDrive - insidemedia.net\Documents\dlt_ingestion_copy\dlt_ingestion - Copy\.dlt\config.toml
+	- C:\Users\Vinithkumar.Perumal\.dlt\config.toml
+WARNING: provider `config.toml` is empty. Locations (i.e., files) are missing or empty.
+
+WARNING: Active pipeline `PostgreSQL_to_adls_postgres_source` used `C:\Users\Vinithkumar.Perumal\OneDrive - insidemedia.net\Documents\dlt_ingestion_copy\dlt_ingestion - Copy\dlt-ingestion-framework\.dlt` directory to read config and secrets for the last successful run. Different directory `C:\Users\Vinithkumar.Perumal\OneDrive - insidemedia.net\Documents\dlt_ingestion_copy\dlt_ingestion - Copy\.dlt` is used now which may be the reason for configuration not resolving.
+If you keep `.dlt` folder with secret files in the same directory as your pipeline script but run your script or a dlt cli command from some other folder, secrets/configs will not be found.
+Learn more: https://dlthub.com/docs/general-usage/credentials/
+"
+2026-01-27T10:41:35.856584,postgres_source.orders,FAILED,0,0.31,,"Pipeline execution failed at `step=sync` with exception:
+
+<class 'dlt.common.configuration.exceptions.ConfigFieldMissingException'>
+Missing 1 field(s) in configuration `FilesystemDestinationClientConfiguration`: `bucket_url`
+for field `bucket_url` the following (config provider, key) were tried in order:
+  (Environment Variables, POSTGRESQL_TO_ADLS_POSTGRES_SOURCE__DESTINATION__FILESYSTEM__BUCKET_URL)
+  (Environment Variables, POSTGRESQL_TO_ADLS_POSTGRES_SOURCE__DESTINATION__BUCKET_URL)
+  (Environment Variables, POSTGRESQL_TO_ADLS_POSTGRES_SOURCE__BUCKET_URL)
+  (Environment Variables, DESTINATION__FILESYSTEM__BUCKET_URL)
+  (Environment Variables, DESTINATION__BUCKET_URL)
+  (Environment Variables, BUCKET_URL)
+NOTE: following fields in `FilesystemDestinationClientConfiguration` got resolved: `credentials`
+Provider `secrets.toml` probed but not found the following locations:
+	- C:\Users\Vinithkumar.Perumal\OneDrive - insidemedia.net\Documents\dlt_ingestion_copy\dlt_ingestion - Copy\.dlt\secrets.toml
+	- C:\Users\Vinithkumar.Perumal\.dlt\secrets.toml
+WARNING: provider `secrets.toml` is empty. Locations (i.e., files) are missing or empty.
+Provider `config.toml` probed but not found the following locations:
+	- C:\Users\Vinithkumar.Perumal\OneDrive - insidemedia.net\Documents\dlt_ingestion_copy\dlt_ingestion - Copy\.dlt\config.toml
+	- C:\Users\Vinithkumar.Perumal\.dlt\config.toml
+WARNING: provider `config.toml` is empty. Locations (i.e., files) are missing or empty.
+
+WARNING: Active pipeline `PostgreSQL_to_adls_postgres_source` used `C:\Users\Vinithkumar.Perumal\OneDrive - insidemedia.net\Documents\dlt_ingestion_copy\dlt_ingestion - Copy\dlt-ingestion-framework\.dlt` directory to read config and secrets for the last successful run. Different directory `C:\Users\Vinithkumar.Perumal\OneDrive - insidemedia.net\Documents\dlt_ingestion_copy\dlt_ingestion - Copy\.dlt` is used now which may be the reason for configuration not resolving.
+If you keep `.dlt` folder with secret files in the same directory as your pipeline script but run your script or a dlt cli command from some other folder, secrets/configs will not be found.
+Learn more: https://dlthub.com/docs/general-usage/credentials/
+"
+2026-01-27T10:41:38.036820,oracle_db.employees,FAILED,0,2.17,,"Pipeline execution failed at `step=sync` with exception:
+
+<class 'dlt.common.configuration.exceptions.ConfigFieldMissingException'>
+Missing 1 field(s) in configuration `FilesystemDestinationClientConfiguration`: `bucket_url`
+for field `bucket_url` the following (config provider, key) were tried in order:
+  (Environment Variables, ORACLE_TO_ADLS_ORACLE_DB__DESTINATION__FILESYSTEM__BUCKET_URL)
+  (Environment Variables, ORACLE_TO_ADLS_ORACLE_DB__DESTINATION__BUCKET_URL)
+  (Environment Variables, ORACLE_TO_ADLS_ORACLE_DB__BUCKET_URL)
+  (Environment Variables, DESTINATION__FILESYSTEM__BUCKET_URL)
+  (Environment Variables, DESTINATION__BUCKET_URL)
+  (Environment Variables, BUCKET_URL)
+NOTE: following fields in `FilesystemDestinationClientConfiguration` got resolved: `credentials`
+Provider `secrets.toml` probed but not found the following locations:
+	- C:\Users\Vinithkumar.Perumal\OneDrive - insidemedia.net\Documents\dlt_ingestion_copy\dlt_ingestion - Copy\.dlt\secrets.toml
+	- C:\Users\Vinithkumar.Perumal\.dlt\secrets.toml
+WARNING: provider `secrets.toml` is empty. Locations (i.e., files) are missing or empty.
+Provider `config.toml` probed but not found the following locations:
+	- C:\Users\Vinithkumar.Perumal\OneDrive - insidemedia.net\Documents\dlt_ingestion_copy\dlt_ingestion - Copy\.dlt\config.toml
+	- C:\Users\Vinithkumar.Perumal\.dlt\config.toml
+WARNING: provider `config.toml` is empty. Locations (i.e., files) are missing or empty.
+
+WARNING: Active pipeline `oracle_to_adls_oracle_db` used `C:\Users\Vinithkumar.Perumal\OneDrive - insidemedia.net\Documents\dlt_ingestion_copy\dlt_ingestion - Copy\dlt-ingestion-framework\.dlt` directory to read config and secrets for the last successful run. Different directory `C:\Users\Vinithkumar.Perumal\OneDrive - insidemedia.net\Documents\dlt_ingestion_copy\dlt_ingestion - Copy\.dlt` is used now which may be the reason for configuration not resolving.
+If you keep `.dlt` folder with secret files in the same directory as your pipeline script but run your script or a dlt cli command from some other folder, secrets/configs will not be found.
+Learn more: https://dlthub.com/docs/general-usage/credentials/
+"
+2026-01-27T10:41:38.666641,Source1.users,FAILED,0,0.61,,"Pipeline execution failed at `step=sync` with exception:
+
+<class 'dlt.common.configuration.exceptions.ConfigFieldMissingException'>
+Missing 1 field(s) in configuration `FilesystemDestinationClientConfiguration`: `bucket_url`
+for field `bucket_url` the following (config provider, key) were tried in order:
+  (Environment Variables, MSSQL_TO_ADLS_SOURCE1__DESTINATION__FILESYSTEM__BUCKET_URL)
+  (Environment Variables, MSSQL_TO_ADLS_SOURCE1__DESTINATION__BUCKET_URL)
+  (Environment Variables, MSSQL_TO_ADLS_SOURCE1__BUCKET_URL)
+  (Environment Variables, DESTINATION__FILESYSTEM__BUCKET_URL)
+  (Environment Variables, DESTINATION__BUCKET_URL)
+  (Environment Variables, BUCKET_URL)
+NOTE: following fields in `FilesystemDestinationClientConfiguration` got resolved: `credentials`
+Provider `secrets.toml` probed but not found the following locations:
+	- C:\Users\Vinithkumar.Perumal\OneDrive - insidemedia.net\Documents\dlt_ingestion_copy\dlt_ingestion - Copy\.dlt\secrets.toml
+	- C:\Users\Vinithkumar.Perumal\.dlt\secrets.toml
+WARNING: provider `secrets.toml` is empty. Locations (i.e., files) are missing or empty.
+Provider `config.toml` probed but not found the following locations:
+	- C:\Users\Vinithkumar.Perumal\OneDrive - insidemedia.net\Documents\dlt_ingestion_copy\dlt_ingestion - Copy\.dlt\config.toml
+	- C:\Users\Vinithkumar.Perumal\.dlt\config.toml
+WARNING: provider `config.toml` is empty. Locations (i.e., files) are missing or empty.
+
+WARNING: Active pipeline `MSSQL_to_adls_Source1` used `C:\Users\Vinithkumar.Perumal\OneDrive - insidemedia.net\Documents\dlt_ingestion_copy\dlt_ingestion - Copy\dlt-ingestion-framework\.dlt` directory to read config and secrets for the last successful run. Different directory `C:\Users\Vinithkumar.Perumal\OneDrive - insidemedia.net\Documents\dlt_ingestion_copy\dlt_ingestion - Copy\.dlt` is used now which may be the reason for configuration not resolving.
+If you keep `.dlt` folder with secret files in the same directory as your pipeline script but run your script or a dlt cli command from some other folder, secrets/configs will not be found.
+Learn more: https://dlthub.com/docs/general-usage/credentials/
+"
+2026-01-27T10:41:40.731612,coingecko.crypto_price,FAILED,0,2.05,,"Pipeline execution failed at `step=sync` with exception:
+
+<class 'dlt.common.configuration.exceptions.ConfigFieldMissingException'>
+Missing 1 field(s) in configuration `FilesystemDestinationClientConfiguration`: `bucket_url`
+for field `bucket_url` the following (config provider, key) were tried in order:
+  (Environment Variables, API_TO_ADLS_COINGECKO__DESTINATION__FILESYSTEM__BUCKET_URL)
+  (Environment Variables, API_TO_ADLS_COINGECKO__DESTINATION__BUCKET_URL)
+  (Environment Variables, API_TO_ADLS_COINGECKO__BUCKET_URL)
+  (Environment Variables, DESTINATION__FILESYSTEM__BUCKET_URL)
+  (Environment Variables, DESTINATION__BUCKET_URL)
+  (Environment Variables, BUCKET_URL)
+NOTE: following fields in `FilesystemDestinationClientConfiguration` got resolved: `credentials`
+Provider `secrets.toml` probed but not found the following locations:
+	- C:\Users\Vinithkumar.Perumal\OneDrive - insidemedia.net\Documents\dlt_ingestion_copy\dlt_ingestion - Copy\.dlt\secrets.toml
+	- C:\Users\Vinithkumar.Perumal\.dlt\secrets.toml
+WARNING: provider `secrets.toml` is empty. Locations (i.e., files) are missing or empty.
+Provider `config.toml` probed but not found the following locations:
+	- C:\Users\Vinithkumar.Perumal\OneDrive - insidemedia.net\Documents\dlt_ingestion_copy\dlt_ingestion - Copy\.dlt\config.toml
+	- C:\Users\Vinithkumar.Perumal\.dlt\config.toml
+WARNING: provider `config.toml` is empty. Locations (i.e., files) are missing or empty.
+
+WARNING: Active pipeline `api_to_adls_coingecko` used `C:\Users\Vinithkumar.Perumal\OneDrive - insidemedia.net\Documents\dlt_ingestion_copy\dlt_ingestion - Copy\dlt-ingestion-framework\.dlt` directory to read config and secrets for the last successful run. Different directory `C:\Users\Vinithkumar.Perumal\OneDrive - insidemedia.net\Documents\dlt_ingestion_copy\dlt_ingestion - Copy\.dlt` is used now which may be the reason for configuration not resolving.
+If you keep `.dlt` folder with secret files in the same directory as your pipeline script but run your script or a dlt cli command from some other folder, secrets/configs will not be found.
+Learn more: https://dlthub.com/docs/general-usage/credentials/
+"
+2026-01-27T10:42:31.794795,postgres_source.orders,FAILED,0,16.54,,"Pipeline execution failed at `step=extract` when processing package with `load_id=1769490746.7715518` with exception:
+
+<class 'dlt.extract.exceptions.ResourceExtractionError'>
+In processing pipe `orders`: extraction of resource `orders` in `generator` `table_rows` caused an exception: (psycopg2.OperationalError) connection to server at ""localhost"" (::1), port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at ""localhost"" (127.0.0.1), port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)"
+2026-01-27T10:42:38.742158,postgres_source.orders,FAILED,0,6.92,,"Pipeline execution failed at `step=extract` when processing package with `load_id=1769490754.5545285` with exception:
+
+<class 'dlt.extract.exceptions.ResourceExtractionError'>
+In processing pipe `orders`: extraction of resource `orders` in `generator` `table_rows` caused an exception: (psycopg2.OperationalError) connection to server at ""localhost"" (::1), port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at ""localhost"" (127.0.0.1), port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)"
+2026-01-27T10:42:45.387840,oracle_db.employees,FAILED,0,6.63,,"Pipeline execution failed at `step=extract` when processing package with `load_id=1769490761.0800722` with exception:
+
+<class 'dlt.extract.exceptions.ResourceExtractionError'>
+In processing pipe `employees`: extraction of resource `employees` in `generator` `table_rows` caused an exception: (oracledb.exceptions.OperationalError) DPY-6005: cannot connect to database (CONNECTION_ID=6HTqBtaXPiOhadd3CHrJbg==).
+[WinError 10061] No connection could be made because the target machine actively refused it
+(Background on this error at: https://sqlalche.me/e/20/e3q8)"
+2026-01-27T10:43:03.471222,Source1.users,FAILED,0,18.06,,"Pipeline execution failed at `step=extract` when processing package with `load_id=1769490767.371139` with exception:
+
+<class 'dlt.extract.exceptions.ResourceExtractionError'>
+In processing pipe `users`: extraction of resource `users` in `generator` `table_rows` caused an exception: (pyodbc.OperationalError) ('08001', '[08001] [Microsoft][ODBC Driver 17 for SQL Server]TCP Provider: No connection could be made because the target machine actively refused it.\r\n (10061) (SQLDriverConnect); [08001] [Microsoft][ODBC Driver 17 for SQL Server]Login timeout expired (0); [08001] [Microsoft][ODBC Driver 17 for SQL Server]A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online. (10061)')
+(Background on this error at: https://sqlalche.me/e/20/e3q8)"
+2026-01-27T10:43:15.549395,coingecko.crypto_price,SUCCESS,0,12.07,coingecko/crypto_price/2026/01/27,
+2026-01-27T10:43:28.103485,postgres_source.orders,FAILED,0,8.11,,"Pipeline execution failed at `step=extract` when processing package with `load_id=1769490803.9140787` with exception:
+
+<class 'dlt.extract.exceptions.ResourceExtractionError'>
+In processing pipe `orders`: extraction of resource `orders` in `generator` `table_rows` caused an exception: (psycopg2.OperationalError) connection to server at ""localhost"" (::1), port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at ""localhost"" (127.0.0.1), port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)"
+2026-01-27T10:43:35.873222,postgres_source.orders,FAILED,0,7.74,,"Pipeline execution failed at `step=extract` when processing package with `load_id=1769490811.6488879` with exception:
+
+<class 'dlt.extract.exceptions.ResourceExtractionError'>
+In processing pipe `orders`: extraction of resource `orders` in `generator` `table_rows` caused an exception: (psycopg2.OperationalError) connection to server at ""localhost"" (::1), port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at ""localhost"" (127.0.0.1), port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)"
+2026-01-27T10:43:42.191275,oracle_db.employees,FAILED,0,6.28,,"Pipeline execution failed at `step=extract` when processing package with `load_id=1769490817.921952` with exception:
+
+<class 'dlt.extract.exceptions.ResourceExtractionError'>
+In processing pipe `employees`: extraction of resource `employees` in `generator` `table_rows` caused an exception: (oracledb.exceptions.OperationalError) DPY-6005: cannot connect to database (CONNECTION_ID=y+YgLxsHJHTIDqSZFN4oDA==).
+[WinError 10061] No connection could be made because the target machine actively refused it
+(Background on this error at: https://sqlalche.me/e/20/e3q8)"
+2026-01-27T10:44:00.547725,Source1.users,FAILED,0,18.33,,"Pipeline execution failed at `step=extract` when processing package with `load_id=1769490824.557124` with exception:
+
+<class 'dlt.extract.exceptions.ResourceExtractionError'>
+In processing pipe `users`: extraction of resource `users` in `generator` `table_rows` caused an exception: (pyodbc.OperationalError) ('08001', '[08001] [Microsoft][ODBC Driver 17 for SQL Server]TCP Provider: No connection could be made because the target machine actively refused it.\r\n (10061) (SQLDriverConnect); [08001] [Microsoft][ODBC Driver 17 for SQL Server]Login timeout expired (0); [08001] [Microsoft][ODBC Driver 17 for SQL Server]A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online. (10061)')
+(Background on this error at: https://sqlalche.me/e/20/e3q8)"
+2026-01-27T10:44:12.645098,coingecko.crypto_price,SUCCESS,0,12.09,coingecko/crypto_price/2026/01/27,
+2026-01-27T10:47:18.376754,postgres_source.orders,SUCCESS,0,16.56,postgres_source/orders/2026/01/27,
+2026-01-27T10:47:30.922848,postgres_source.orders,SUCCESS,0,12.53,postgres_source/orders/2026/01/27,
+2026-01-27T10:47:45.210558,oracle_db.employees,SUCCESS,0,14.28,oracle_db/employees/2026/01/27,
+2026-01-27T10:47:58.730960,Source1.users,SUCCESS,0,13.51,Source1/users/2026/01/27,
+2026-01-27T10:48:11.760280,coingecko.crypto_price,SUCCESS,0,13.01,coingecko/crypto_price/2026/01/27,

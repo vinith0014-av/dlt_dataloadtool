@@ -1,0 +1,88 @@
+{
+  "pipeline_name": "dlt_ingestion",
+  "total_jobs": 4,
+  "successful_jobs": 2,
+  "failed_jobs": 2,
+  "success_rate": 0.5,
+  "total_rows_processed": 1,
+  "total_duration_seconds": 23.57,
+  "average_rows_per_second": 0.04,
+  "jobs": [
+    {
+      "pipeline_name": "dlt_ingestion",
+      "job_name": "postgres_source.orders",
+      "start_time": "2026-02-12T10:23:01.561828",
+      "end_time": "2026-02-12T10:23:10.295275",
+      "status": "FAILED",
+      "duration_seconds": 8.73,
+      "rows_processed": 0,
+      "bytes_processed": 0,
+      "rows_per_second": 0.0,
+      "chunk_count": 0,
+      "retry_count": 0,
+      "error_count": 0,
+      "schema_version": 1,
+      "source_type": "postgresql",
+      "destination_type": "adls_gen2",
+      "custom_metrics": {
+        "error_message": "Job execution failed"
+      }
+    },
+    {
+      "pipeline_name": "dlt_ingestion",
+      "job_name": "postgres_source.orders",
+      "start_time": "2026-02-12T10:23:10.296735",
+      "end_time": "2026-02-12T10:23:14.161377",
+      "status": "FAILED",
+      "duration_seconds": 3.86,
+      "rows_processed": 0,
+      "bytes_processed": 0,
+      "rows_per_second": 0.0,
+      "chunk_count": 0,
+      "retry_count": 0,
+      "error_count": 0,
+      "schema_version": 1,
+      "source_type": "postgresql",
+      "destination_type": "adls_gen2",
+      "custom_metrics": {
+        "error_message": "Job execution failed"
+      }
+    },
+    {
+      "pipeline_name": "dlt_ingestion",
+      "job_name": "Source1.users",
+      "start_time": "2026-02-12T10:23:14.170990",
+      "end_time": "2026-02-12T10:23:17.930649",
+      "status": "SUCCESS",
+      "duration_seconds": 3.76,
+      "rows_processed": 0,
+      "bytes_processed": 0,
+      "rows_per_second": 0.0,
+      "chunk_count": 0,
+      "retry_count": 0,
+      "error_count": 0,
+      "schema_version": 1,
+      "source_type": "mssql",
+      "destination_type": "adls_gen2",
+      "custom_metrics": {}
+    },
+    {
+      "pipeline_name": "dlt_ingestion",
+      "job_name": "coingecko.crypto_price",
+      "start_time": "2026-02-12T10:23:17.933792",
+      "end_time": "2026-02-12T10:23:25.149217",
+      "status": "SUCCESS",
+      "duration_seconds": 7.22,
+      "rows_processed": 1,
+      "bytes_processed": 0,
+      "rows_per_second": 0.14,
+      "chunk_count": 0,
+      "retry_count": 0,
+      "error_count": 0,
+      "schema_version": 1,
+      "source_type": "api",
+      "destination_type": "adls_gen2",
+      "custom_metrics": {}
+    }
+  ]
+}

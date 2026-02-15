@@ -1,0 +1,23 @@
+timestamp,job_name,status,rows_processed,duration_seconds,error_message
+2026-01-13T15:50:18.906518,postgres_source.orders,SUCCESS,0,38.8,
+2026-01-13T15:50:29.448847,postgres_source.orders,SUCCESS,0,10.45,
+2026-01-13T16:05:24.495726,postgres_source.orders,SUCCESS,0,35.81,
+2026-01-13T16:05:35.000212,postgres_source.orders,SUCCESS,0,10.44,
+2026-01-13T16:11:09.602728,postgres_source.orders,FAILED,0,19.62,"Pipeline execution failed at `step=sync` with exception:
+
+<class 'dlt.destinations.exceptions.InvalidFilesystemLayout'>
+`layout={table_name}/{year}/{month}/{day}/{load_id}.{file_id}.{ext}` expected placeholders: `{'SSS', 'MM', 'curr_date', 'd', 'M', 'SS', 'Y', 'load_id', 'dddd', 'D', 'file_id', 'mm', 'YYYY', 'load_package_timestamp_ms', 'timestamp_ms', 'DD', 'm', 'H', 'table_name', 'YY', 'MMM', 'HH', 'schema_name', 'load_package_timestamp', 'Q', 'ddd', 'MMMM', 'SSSS', 'timestamp', 'S', 's', 'dd', 'ext', 'ss'}` Missing placeholders: `['year', 'month', 'day']` "
+2026-01-13T16:11:10.109034,postgres_source.orders,FAILED,0,0.42,"Pipeline execution failed at `step=sync` with exception:
+
+<class 'dlt.destinations.exceptions.InvalidFilesystemLayout'>
+`layout={table_name}/{year}/{month}/{day}/{load_id}.{file_id}.{ext}` expected placeholders: `{'SSS', 'MM', 'curr_date', 'd', 'M', 'SS', 'Y', 'load_id', 'dddd', 'D', 'file_id', 'mm', 'YYYY', 'load_package_timestamp_ms', 'timestamp_ms', 'DD', 'm', 'H', 'table_name', 'YY', 'MMM', 'HH', 'schema_name', 'load_package_timestamp', 'Q', 'ddd', 'MMMM', 'SSSS', 'timestamp', 'S', 's', 'dd', 'ext', 'ss'}` Missing placeholders: `['year', 'month', 'day']` "
+2026-01-13T16:14:13.895354,postgres_source.orders,FAILED,0,1.12,,"Pipeline execution failed at `step=sync` with exception:
+
+<class 'dlt.destinations.exceptions.InvalidFilesystemLayout'>
+`layout={table_name}/{year}/{month}/{day}/{load_id}.{file_id}.{ext}` expected placeholders: `{'file_id', 'DD', 'M', 'dddd', 'MMM', 'YY', 'Q', 'curr_date', 'timestamp_ms', 'D', 'YYYY', 'd', 'ddd', 'SSSS', 'S', 'table_name', 'dd', 'SSS', 'Y', 'ext', 'H', 'load_id', 'timestamp', 'load_package_timestamp', 's', 'mm', 'SS', 'HH', 'load_package_timestamp_ms', 'schema_name', 'MMMM', 'm', 'MM', 'ss'}` Missing placeholders: `['year', 'month', 'day']` "
+2026-01-13T16:14:14.292149,postgres_source.orders,FAILED,0,0.35,,"Pipeline execution failed at `step=sync` with exception:
+
+<class 'dlt.destinations.exceptions.InvalidFilesystemLayout'>
+`layout={table_name}/{year}/{month}/{day}/{load_id}.{file_id}.{ext}` expected placeholders: `{'file_id', 'DD', 'M', 'dddd', 'MMM', 'YY', 'Q', 'curr_date', 'timestamp_ms', 'D', 'YYYY', 'd', 'ddd', 'SSSS', 'S', 'table_name', 'dd', 'SSS', 'Y', 'ext', 'H', 'load_id', 'timestamp', 'load_package_timestamp', 's', 'mm', 'SS', 'HH', 'load_package_timestamp_ms', 'schema_name', 'MMMM', 'm', 'MM', 'ss'}` Missing placeholders: `['year', 'month', 'day']` "
+2026-01-13T16:16:46.929052,postgres_source.orders,SUCCESS,0,17.42,postgres_source/orders/2026/01/13,
+2026-01-13T16:16:56.498433,postgres_source.orders,SUCCESS,0,9.55,postgres_source/orders/2026/01/13,

@@ -1,0 +1,35 @@
+timestamp,job_name,status,rows_processed,duration_seconds,partition_path,error_message
+2026-01-16T20:11:25.444591,postgres_source.orders,SUCCESS,0,32.03,postgres_source/orders/2026/01/16,
+2026-01-16T20:11:36.490551,postgres_source.orders,SUCCESS,0,10.97,postgres_source/orders/2026/01/16,
+2026-01-16T20:16:28.863069,postgres_source.orders,SUCCESS,0,36.82,postgres_source/orders/2026/01/16,
+2026-01-16T20:16:41.616497,postgres_source.orders,SUCCESS,0,12.64,postgres_source/orders/2026/01/16,
+2026-01-16T20:16:49.944255,oracle_source.test_data,FAILED,0,8.29,,"Pipeline execution failed at `step=extract` when processing package with `load_id=1768574808.520444` with exception:
+
+<class 'dlt.extract.exceptions.ResourceExtractionError'>
+In processing pipe `test_data`: extraction of resource `test_data` in `generator` `table_rows` caused an exception: [Errno 11001] getaddrinfo failed"
+2026-01-16T20:28:47.923252,postgres_source.orders,SUCCESS,0,14.56,postgres_source/orders/2026/01/16,
+2026-01-16T20:29:01.189852,postgres_source.orders,SUCCESS,0,13.25,postgres_source/orders/2026/01/16,
+2026-01-16T20:29:03.558280,oracle_source.test_data,FAILED,0,2.34,,"Pipeline execution failed at `step=extract` when processing package with `load_id=1768575543.382345` with exception:
+
+<class 'dlt.extract.exceptions.ResourceExtractionError'>
+In processing pipe `test_data`: extraction of resource `test_data` in `generator` `table_rows` caused an exception: [Errno 11001] getaddrinfo failed"
+2026-01-16T21:45:49.673871,postgres_source.orders,SUCCESS,0,40.23,postgres_source/orders/2026/01/16,
+2026-01-16T21:46:00.965303,postgres_source.orders,SUCCESS,0,11.21,postgres_source/orders/2026/01/16,
+2026-01-16T21:46:08.638361,oracle_source.test_data,FAILED,0,7.6,,"Pipeline execution failed at `step=extract` when processing package with `load_id=1768580167.17999` with exception:
+
+<class 'dlt.extract.exceptions.ResourceExtractionError'>
+In processing pipe `test_data`: extraction of resource `test_data` in `generator` `table_rows` caused an exception: [Errno 11001] getaddrinfo failed"
+2026-01-16T22:13:09.097372,postgres_source.orders,SUCCESS,0,40.81,postgres_source/orders/2026/01/16,
+2026-01-16T22:13:18.894235,postgres_source.orders,SUCCESS,0,9.73,postgres_source/orders/2026/01/16,
+2026-01-16T22:13:26.599063,oracle_source.employees,FAILED,0,7.59,,"Pipeline execution failed at `step=extract` when processing package with `load_id=1768581805.1385405` with exception:
+
+<class 'dlt.extract.exceptions.ResourceExtractionError'>
+In processing pipe `employees`: extraction of resource `employees` in `generator` `table_rows` caused an exception: (oracledb.exceptions.DatabaseError) DPY-4027: no configuration directory specified
+(Background on this error at: https://sqlalche.me/e/20/4xp6)"
+2026-01-16T22:28:10.187101,postgres_source.orders,SUCCESS,0,16.34,postgres_source/orders/2026/01/16,
+2026-01-16T22:28:20.599948,postgres_source.orders,SUCCESS,0,10.38,postgres_source/orders/2026/01/16,
+2026-01-16T22:28:23.429560,oracle_db.employees,FAILED,0,2.78,,"Pipeline execution failed at `step=extract` when processing package with `load_id=1768582703.2396328` with exception:
+
+<class 'dlt.extract.exceptions.ResourceExtractionError'>
+In processing pipe `employees`: extraction of resource `employees` in `generator` `table_rows` caused an exception: (oracledb.exceptions.DatabaseError) DPY-4027: no configuration directory specified
+(Background on this error at: https://sqlalche.me/e/20/4xp6)"

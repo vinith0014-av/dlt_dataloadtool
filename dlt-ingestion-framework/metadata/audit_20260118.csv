@@ -1,0 +1,151 @@
+timestamp,job_name,status,rows_processed,duration_seconds,partition_path,error_message
+2026-01-18T11:00:46.693550,postgres_source.orders,SUCCESS,0,37.6,postgres_source/orders/2026/01/18,
+2026-01-18T11:00:57.304762,postgres_source.orders,SUCCESS,0,10.54,postgres_source/orders/2026/01/18,
+2026-01-18T11:01:11.264966,oracle_db.employees,SUCCESS,0,13.93,oracle_db/employees/2026/01/18,
+2026-01-18T13:42:12.500013,postgres_source.orders,SUCCESS,0,28.84,postgres_source/orders/2026/01/18,
+2026-01-18T13:42:20.380458,postgres_source.orders,SUCCESS,0,7.86,postgres_source/orders/2026/01/18,
+2026-01-18T13:42:31.017173,oracle_db.employees,SUCCESS,0,10.63,oracle_db/employees/2026/01/18,
+2026-01-18T18:50:55.144553,postgres_source.orders,SUCCESS,0,36.72,postgres_source/orders/2026/01/18,
+2026-01-18T18:51:05.835938,postgres_source.orders,SUCCESS,0,10.59,postgres_source/orders/2026/01/18,
+2026-01-18T18:51:20.828409,oracle_db.employees,SUCCESS,0,14.97,oracle_db/employees/2026/01/18,
+2026-01-18T18:51:25.646146,Source1.users,FAILED,0,4.76,,"Pipeline execution failed at `step=extract` when processing package with `load_id=1768742483.7131774` with exception:
+
+<class 'dlt.extract.exceptions.ResourceExtractionError'>
+In processing pipe `users`: extraction of resource `users` in `generator` `table_rows` caused an exception: (pyodbc.InterfaceError) ('28000', ""[28000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Login failed for user 'sa'. (18456) (SQLDriverConnect); [28000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Login failed for user 'sa'. (18456)"")
+(Background on this error at: https://sqlalche.me/e/20/rvf5)"
+2026-01-18T18:52:58.206457,postgres_source.orders,SUCCESS,0,13.81,postgres_source/orders/2026/01/18,
+2026-01-18T18:53:08.759239,postgres_source.orders,SUCCESS,0,10.53,postgres_source/orders/2026/01/18,
+2026-01-18T18:53:19.691465,oracle_db.employees,SUCCESS,0,10.92,oracle_db/employees/2026/01/18,
+2026-01-18T18:53:22.212902,Source1.users,FAILED,0,2.43,,"Pipeline execution failed at `step=extract` when processing package with `load_id=1768742601.8747106` with exception:
+
+<class 'dlt.extract.exceptions.ResourceExtractionError'>
+In processing pipe `users`: extraction of resource `users` in `generator` `table_rows` caused an exception: (pyodbc.InterfaceError) ('28000', ""[28000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Login failed for user 'sa'. (18456) (SQLDriverConnect); [28000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Login failed for user 'sa'. (18456)"")
+(Background on this error at: https://sqlalche.me/e/20/rvf5)"
+2026-01-18T18:54:57.739530,postgres_source.orders,SUCCESS,0,12.67,postgres_source/orders/2026/01/18,
+2026-01-18T18:55:06.429638,postgres_source.orders,SUCCESS,0,8.66,postgres_source/orders/2026/01/18,
+2026-01-18T18:55:16.728801,oracle_db.employees,SUCCESS,0,10.29,oracle_db/employees/2026/01/18,
+2026-01-18T18:55:19.410305,Source1.users,FAILED,0,2.63,,"Pipeline execution failed at `step=extract` when processing package with `load_id=1768742719.067781` with exception:
+
+<class 'dlt.extract.exceptions.ResourceExtractionError'>
+In processing pipe `users`: extraction of resource `users` in `generator` `table_rows` caused an exception: (pyodbc.InterfaceError) ('28000', ""[28000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Login failed for user 'c1c6c8219ee7\\Guest'. (18456) (SQLDriverConnect); [28000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Login failed for user 'c1c6c8219ee7\\Guest'. (18456)"")
+(Background on this error at: https://sqlalche.me/e/20/rvf5)"
+2026-01-18T18:58:55.660240,postgres_source.orders,SUCCESS,0,37.44,postgres_source/orders/2026/01/18,
+2026-01-18T18:59:07.122884,postgres_source.orders,SUCCESS,0,11.41,postgres_source/orders/2026/01/18,
+2026-01-18T18:59:21.523373,oracle_db.employees,SUCCESS,0,14.39,oracle_db/employees/2026/01/18,
+2026-01-18T18:59:25.918431,Source1.users,FAILED,0,4.31,,"Pipeline execution failed at `step=extract` when processing package with `load_id=1768742964.1748166` with exception:
+
+<class 'dlt.extract.exceptions.ResourceExtractionError'>
+In processing pipe `users`: extraction of resource `users` in `generator` `table_rows` caused an exception: (pyodbc.InterfaceError) ('28000', ""[28000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Login failed for user 'sa'. (18456) (SQLDriverConnect); [28000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Login failed for user 'sa'. (18456)"")
+(Background on this error at: https://sqlalche.me/e/20/rvf5)"
+2026-01-18T19:04:52.177146,postgres_source.orders,SUCCESS,0,13.14,postgres_source/orders/2026/01/18,
+2026-01-18T19:05:02.420970,postgres_source.orders,SUCCESS,0,10.23,postgres_source/orders/2026/01/18,
+2026-01-18T19:05:12.448444,oracle_db.employees,SUCCESS,0,10.02,oracle_db/employees/2026/01/18,
+2026-01-18T19:05:15.265871,Source1.users,FAILED,0,2.73,,"Pipeline execution failed at `step=extract` when processing package with `load_id=1768743314.7866867` with exception:
+
+<class 'dlt.extract.exceptions.ResourceExtractionError'>
+In processing pipe `users`: extraction of resource `users` in `generator` `table_rows` caused an exception: (pyodbc.InterfaceError) ('28000', ""[28000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Login failed for user 'sa'. (18456) (SQLDriverConnect); [28000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Login failed for user 'sa'. (18456)"")
+(Background on this error at: https://sqlalche.me/e/20/rvf5)"
+2026-01-18T19:06:23.256312,postgres_source.orders,SUCCESS,0,12.7,postgres_source/orders/2026/01/18,
+2026-01-18T19:06:33.994018,postgres_source.orders,SUCCESS,0,10.72,postgres_source/orders/2026/01/18,
+2026-01-18T19:06:44.099343,oracle_db.employees,SUCCESS,0,10.09,oracle_db/employees/2026/01/18,
+2026-01-18T19:06:46.203821,Source1.users,FAILED,0,2.08,,"Pipeline execution failed at `step=extract` when processing package with `load_id=1768743405.9368267` with exception:
+
+<class 'dlt.extract.exceptions.ResourceExtractionError'>
+In processing pipe `users`: extraction of resource `users` in `generator` `table_rows` caused an exception: (pyodbc.InterfaceError) ('28000', ""[28000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Login failed for user 'sa'. (18456) (SQLDriverConnect); [28000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Login failed for user 'sa'. (18456)"")
+(Background on this error at: https://sqlalche.me/e/20/rvf5)"
+2026-01-18T19:08:24.316951,postgres_source.orders,SUCCESS,0,13.75,postgres_source/orders/2026/01/18,
+2026-01-18T19:08:34.201165,postgres_source.orders,SUCCESS,0,9.87,postgres_source/orders/2026/01/18,
+2026-01-18T19:08:44.231444,oracle_db.employees,SUCCESS,0,10.02,oracle_db/employees/2026/01/18,
+2026-01-18T19:08:56.724835,Source1.users,SUCCESS,0,12.48,Source1/users/2026/01/18,
+2026-01-18T20:30:34.611756,postgres_source.orders,SUCCESS,0,27.93,postgres_source/orders/2026/01/18,
+2026-01-18T20:30:43.241932,postgres_source.orders,SUCCESS,0,8.58,postgres_source/orders/2026/01/18,
+2026-01-18T20:30:53.871011,oracle_db.employees,SUCCESS,0,10.62,oracle_db/employees/2026/01/18,
+2026-01-18T20:31:02.292459,Source1.users,SUCCESS,0,8.41,Source1/users/2026/01/18,
+2026-01-18T20:32:31.843541,postgres_source.orders,SUCCESS,0,27.58,postgres_source/orders/2026/01/18,
+2026-01-18T20:32:39.626454,postgres_source.orders,SUCCESS,0,7.75,postgres_source/orders/2026/01/18,
+2026-01-18T20:32:49.266742,oracle_db.employees,SUCCESS,0,9.64,oracle_db/employees/2026/01/18,
+2026-01-18T20:32:56.971275,Source1.users,SUCCESS,0,7.7,Source1/users/2026/01/18,
+2026-01-18T20:32:56.984876,coingecko.crypto_price,FAILED,0,0.0,,Unsupported source type: api
+2026-01-18T20:33:52.572941,postgres_source.orders,SUCCESS,0,9.87,postgres_source/orders/2026/01/18,
+2026-01-18T20:34:00.192854,postgres_source.orders,SUCCESS,0,7.62,postgres_source/orders/2026/01/18,
+2026-01-18T20:34:07.634152,oracle_db.employees,SUCCESS,0,7.44,oracle_db/employees/2026/01/18,
+2026-01-18T20:34:14.993892,Source1.users,SUCCESS,0,7.35,Source1/users/2026/01/18,
+2026-01-18T20:34:15.001070,coingecko.crypto_price,FAILED,0,0.0,,Unsupported source type: api
+2026-01-18T20:38:53.817279,postgres_source.orders,SUCCESS,0,10.25,postgres_source/orders/2026/01/18,
+2026-01-18T20:39:01.719482,postgres_source.orders,SUCCESS,0,7.89,postgres_source/orders/2026/01/18,
+2026-01-18T20:39:09.142124,oracle_db.employees,SUCCESS,0,7.42,oracle_db/employees/2026/01/18,
+2026-01-18T20:39:16.526560,Source1.users,SUCCESS,0,7.38,Source1/users/2026/01/18,
+2026-01-18T20:39:16.550144,coingecko.crypto_price,FAILED,0,0.02,,'coingecko'
+2026-01-18T20:41:53.282430,postgres_source.orders,SUCCESS,0,10.02,postgres_source/orders/2026/01/18,
+2026-01-18T20:42:01.897082,postgres_source.orders,SUCCESS,0,8.61,postgres_source/orders/2026/01/18,
+2026-01-18T20:42:09.663381,oracle_db.employees,SUCCESS,0,7.76,oracle_db/employees/2026/01/18,
+2026-01-18T20:42:17.052598,Source1.users,SUCCESS,0,7.39,Source1/users/2026/01/18,
+2026-01-18T20:42:17.260041,coingecko.crypto_price,FAILED,0,0.03,,"Missing 1 field(s) in configuration `RestApiConfiguration`: `resources`
+for field `resources` the following (config provider, key) were tried in order:
+  (Environment Variables, API_TO_ADLS_COINGECKO__SOURCES__REST_API__REST_API__RESOURCES)
+  (Environment Variables, API_TO_ADLS_COINGECKO__SOURCES__REST_API__RESOURCES)
+  (Environment Variables, API_TO_ADLS_COINGECKO__SOURCES__RESOURCES)
+  (Environment Variables, API_TO_ADLS_COINGECKO__RESOURCES)
+  (secrets.toml, api_to_adls_coingecko.sources.rest_api.rest_api.resources)
+  (secrets.toml, api_to_adls_coingecko.sources.rest_api.resources)
+  (secrets.toml, api_to_adls_coingecko.sources.resources)
+  (secrets.toml, api_to_adls_coingecko.resources)
+  (Environment Variables, SOURCES__REST_API__REST_API__RESOURCES)
+  (Environment Variables, SOURCES__REST_API__RESOURCES)
+  (Environment Variables, SOURCES__RESOURCES)
+  (Environment Variables, RESOURCES)
+  (secrets.toml, sources.rest_api.rest_api.resources)
+  (secrets.toml, sources.rest_api.resources)
+  (secrets.toml, sources.resources)
+  (secrets.toml, resources)
+NOTE: following fields in `RestApiConfiguration` got resolved: `client`
+Provider `secrets.toml` loaded values from locations:
+	- C:\Users\Vinithkumar.Perumal\OneDrive - insidemedia.net\Documents\dlt_ingestion_copy\dlt_ingestion - Copy\dlt-ingestion-framework\.dlt\secrets.toml
+Provider `secrets.toml` probed but not found the following locations:
+	- C:\Users\Vinithkumar.Perumal\.dlt\secrets.toml
+Provider `config.toml` probed but not found the following locations:
+	- C:\Users\Vinithkumar.Perumal\.dlt\config.toml
+	- C:\Users\Vinithkumar.Perumal\OneDrive - insidemedia.net\Documents\dlt_ingestion_copy\dlt_ingestion - Copy\dlt-ingestion-framework\.dlt\config.toml
+WARNING: provider `config.toml` is empty. Locations (i.e., files) are missing or empty.
+
+Learn more: https://dlthub.com/docs/general-usage/credentials/
+"
+2026-01-18T20:43:25.172755,postgres_source.orders,SUCCESS,0,9.83,postgres_source/orders/2026/01/18,
+2026-01-18T20:43:33.098268,postgres_source.orders,SUCCESS,0,7.92,postgres_source/orders/2026/01/18,
+2026-01-18T20:43:40.520860,oracle_db.employees,SUCCESS,0,7.42,oracle_db/employees/2026/01/18,
+2026-01-18T20:43:48.002532,Source1.users,SUCCESS,0,7.48,Source1/users/2026/01/18,
+2026-01-18T20:43:48.027486,coingecko.crypto_price,FAILED,0,0.02,,"Missing 1 field(s) in configuration `RestApiConfiguration`: `resources`
+for field `resources` the following (config provider, key) were tried in order:
+  (Environment Variables, API_TO_ADLS_COINGECKO__SOURCES__REST_API__REST_API__RESOURCES)
+  (Environment Variables, API_TO_ADLS_COINGECKO__SOURCES__REST_API__RESOURCES)
+  (Environment Variables, API_TO_ADLS_COINGECKO__SOURCES__RESOURCES)
+  (Environment Variables, API_TO_ADLS_COINGECKO__RESOURCES)
+  (secrets.toml, api_to_adls_coingecko.sources.rest_api.rest_api.resources)
+  (secrets.toml, api_to_adls_coingecko.sources.rest_api.resources)
+  (secrets.toml, api_to_adls_coingecko.sources.resources)
+  (secrets.toml, api_to_adls_coingecko.resources)
+  (Environment Variables, SOURCES__REST_API__REST_API__RESOURCES)
+  (Environment Variables, SOURCES__REST_API__RESOURCES)
+  (Environment Variables, SOURCES__RESOURCES)
+  (Environment Variables, RESOURCES)
+  (secrets.toml, sources.rest_api.rest_api.resources)
+  (secrets.toml, sources.rest_api.resources)
+  (secrets.toml, sources.resources)
+  (secrets.toml, resources)
+NOTE: following fields in `RestApiConfiguration` got resolved: `client`
+Provider `secrets.toml` loaded values from locations:
+	- C:\Users\Vinithkumar.Perumal\OneDrive - insidemedia.net\Documents\dlt_ingestion_copy\dlt_ingestion - Copy\dlt-ingestion-framework\.dlt\secrets.toml
+Provider `secrets.toml` probed but not found the following locations:
+	- C:\Users\Vinithkumar.Perumal\.dlt\secrets.toml
+Provider `config.toml` probed but not found the following locations:
+	- C:\Users\Vinithkumar.Perumal\OneDrive - insidemedia.net\Documents\dlt_ingestion_copy\dlt_ingestion - Copy\dlt-ingestion-framework\.dlt\config.toml
+	- C:\Users\Vinithkumar.Perumal\.dlt\config.toml
+WARNING: provider `config.toml` is empty. Locations (i.e., files) are missing or empty.
+
+Learn more: https://dlthub.com/docs/general-usage/credentials/
+"
+2026-01-18T20:44:49.098617,postgres_source.orders,SUCCESS,0,10.07,postgres_source/orders/2026/01/18,
+2026-01-18T20:44:56.941678,postgres_source.orders,SUCCESS,0,7.84,postgres_source/orders/2026/01/18,
+2026-01-18T20:45:04.562731,oracle_db.employees,SUCCESS,0,7.62,oracle_db/employees/2026/01/18,
+2026-01-18T20:45:12.032179,Source1.users,SUCCESS,0,7.47,Source1/users/2026/01/18,
+2026-01-18T20:45:21.288796,coingecko.crypto_price,SUCCESS,0,9.25,coingecko/crypto_price/2026/01/18,

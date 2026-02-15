@@ -1,0 +1,50 @@
+# DLT Ingestion Framework - Git Ignore
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+build/
+dist/
+*.egg-info/
+
+# DLT
+.dlt/
+*.duckdb
+*.duckdb.wal
+
+# Logs
+logs/
+*.log
+
+# Metadata
+metadata/audit_log.jsonl
+metadata/watermarks.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets
+config/secrets.toml
+**/secrets.toml
+
+# Excel temp files
+~$*.xlsx
+~$*.xls
+
+# Backup folders
+../dlt_backup_*/

@@ -1,0 +1,68 @@
+{
+  "pipeline_name": "dlt_ingestion",
+  "total_jobs": 3,
+  "successful_jobs": 2,
+  "failed_jobs": 1,
+  "success_rate": 0.6666666666666666,
+  "total_rows_processed": 10006,
+  "total_duration_seconds": 30.31,
+  "average_rows_per_second": 330.13,
+  "jobs": [
+    {
+      "pipeline_name": "dlt_ingestion",
+      "job_name": "postgres_source.orders",
+      "start_time": "2026-02-12T01:06:28.838126",
+      "end_time": "2026-02-12T01:06:47.118266",
+      "status": "SUCCESS",
+      "duration_seconds": 18.28,
+      "rows_processed": 10003,
+      "bytes_processed": 0,
+      "rows_per_second": 547.21,
+      "chunk_count": 0,
+      "retry_count": 0,
+      "error_count": 0,
+      "schema_version": 1,
+      "source_type": "postgresql",
+      "destination_type": "adls_gen2",
+      "custom_metrics": {}
+    },
+    {
+      "pipeline_name": "dlt_ingestion",
+      "job_name": "Source1.users",
+      "start_time": "2026-02-12T01:06:47.126717",
+      "end_time": "2026-02-12T01:06:57.814797",
+      "status": "SUCCESS",
+      "duration_seconds": 10.69,
+      "rows_processed": 3,
+      "bytes_processed": 0,
+      "rows_per_second": 0.28,
+      "chunk_count": 0,
+      "retry_count": 0,
+      "error_count": 0,
+      "schema_version": 1,
+      "source_type": "mssql",
+      "destination_type": "adls_gen2",
+      "custom_metrics": {}
+    },
+    {
+      "pipeline_name": "dlt_ingestion",
+      "job_name": "coingecko.crypto_prices",
+      "start_time": "2026-02-12T01:06:57.832231",
+      "end_time": "2026-02-12T01:06:59.173378",
+      "status": "FAILED",
+      "duration_seconds": 1.34,
+      "rows_processed": 0,
+      "bytes_processed": 0,
+      "rows_per_second": 0.0,
+      "chunk_count": 0,
+      "retry_count": 0,
+      "error_count": 0,
+      "schema_version": 1,
+      "source_type": "api",
+      "destination_type": "adls_gen2",
+      "custom_metrics": {
+        "error_message": "Job execution failed"
+      }
+    }
+  ]
+}

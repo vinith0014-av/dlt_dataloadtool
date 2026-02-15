@@ -1,0 +1,98 @@
+timestamp,job_name,status,rows_processed,duration_seconds,error_message
+2026-01-12T21:27:35.138020,postgres_source.orders,FAILED,0,3.53,"Pipeline execution failed at `step=sync` with exception:
+
+<class 'dlt.common.configuration.exceptions.ConfigFieldMissingException'>
+Missing 1 field(s) in configuration `FilesystemDestinationClientConfiguration`: `bucket_url`
+for field `bucket_url` the following (config provider, key) were tried in order:
+  (Environment Variables, POSTGRESQL_TO_ADLS_POSTGRES_SOURCE__DESTINATION__FILESYSTEM__BUCKET_URL)
+  (Environment Variables, POSTGRESQL_TO_ADLS_POSTGRES_SOURCE__DESTINATION__BUCKET_URL)
+  (Environment Variables, POSTGRESQL_TO_ADLS_POSTGRES_SOURCE__BUCKET_URL)
+  (Environment Variables, DESTINATION__FILESYSTEM__BUCKET_URL)
+  (Environment Variables, DESTINATION__BUCKET_URL)
+  (Environment Variables, BUCKET_URL)
+NOTE: following fields in `FilesystemDestinationClientConfiguration` got resolved: `credentials`
+Provider `secrets.toml` probed but not found the following locations:
+	- C:\Users\Vinithkumar.Perumal\OneDrive - insidemedia.net\Documents\dlt_ingestion_copy\dlt_ingestion - Copy\dlt-ingestion-framework\.dlt\secrets.toml
+	- C:\Users\Vinithkumar.Perumal\.dlt\secrets.toml
+WARNING: provider `secrets.toml` is empty. Locations (i.e., files) are missing or empty.
+Provider `config.toml` probed but not found the following locations:
+	- C:\Users\Vinithkumar.Perumal\OneDrive - insidemedia.net\Documents\dlt_ingestion_copy\dlt_ingestion - Copy\dlt-ingestion-framework\.dlt\config.toml
+	- C:\Users\Vinithkumar.Perumal\.dlt\config.toml
+WARNING: provider `config.toml` is empty. Locations (i.e., files) are missing or empty.
+
+Learn more: https://dlthub.com/docs/general-usage/credentials/
+"
+2026-01-12T21:27:37.273444,postgres_source.orders,FAILED,0,0.61,"Pipeline execution failed at `step=sync` with exception:
+
+<class 'dlt.common.configuration.exceptions.ConfigFieldMissingException'>
+Missing 1 field(s) in configuration `FilesystemDestinationClientConfiguration`: `bucket_url`
+for field `bucket_url` the following (config provider, key) were tried in order:
+  (Environment Variables, POSTGRESQL_TO_ADLS_POSTGRES_SOURCE__DESTINATION__FILESYSTEM__BUCKET_URL)
+  (Environment Variables, POSTGRESQL_TO_ADLS_POSTGRES_SOURCE__DESTINATION__BUCKET_URL)
+  (Environment Variables, POSTGRESQL_TO_ADLS_POSTGRES_SOURCE__BUCKET_URL)
+  (Environment Variables, DESTINATION__FILESYSTEM__BUCKET_URL)
+  (Environment Variables, DESTINATION__BUCKET_URL)
+  (Environment Variables, BUCKET_URL)
+NOTE: following fields in `FilesystemDestinationClientConfiguration` got resolved: `credentials`
+Provider `secrets.toml` probed but not found the following locations:
+	- C:\Users\Vinithkumar.Perumal\OneDrive - insidemedia.net\Documents\dlt_ingestion_copy\dlt_ingestion - Copy\dlt-ingestion-framework\.dlt\secrets.toml
+	- C:\Users\Vinithkumar.Perumal\.dlt\secrets.toml
+WARNING: provider `secrets.toml` is empty. Locations (i.e., files) are missing or empty.
+Provider `config.toml` probed but not found the following locations:
+	- C:\Users\Vinithkumar.Perumal\OneDrive - insidemedia.net\Documents\dlt_ingestion_copy\dlt_ingestion - Copy\dlt-ingestion-framework\.dlt\config.toml
+	- C:\Users\Vinithkumar.Perumal\.dlt\config.toml
+WARNING: provider `config.toml` is empty. Locations (i.e., files) are missing or empty.
+
+Learn more: https://dlthub.com/docs/general-usage/credentials/
+"
+2026-01-12T21:27:42.676328,postgres_source.orders,FAILED,0,0.24,"Pipeline execution failed at `step=sync` with exception:
+
+<class 'dlt.common.configuration.exceptions.ConfigFieldMissingException'>
+Missing 1 field(s) in configuration `FilesystemDestinationClientConfiguration`: `bucket_url`
+for field `bucket_url` the following (config provider, key) were tried in order:
+  (Environment Variables, POSTGRESQL_TO_ADLS_POSTGRES_SOURCE__DESTINATION__FILESYSTEM__BUCKET_URL)
+  (Environment Variables, POSTGRESQL_TO_ADLS_POSTGRES_SOURCE__DESTINATION__BUCKET_URL)
+  (Environment Variables, POSTGRESQL_TO_ADLS_POSTGRES_SOURCE__BUCKET_URL)
+  (Environment Variables, DESTINATION__FILESYSTEM__BUCKET_URL)
+  (Environment Variables, DESTINATION__BUCKET_URL)
+  (Environment Variables, BUCKET_URL)
+NOTE: following fields in `FilesystemDestinationClientConfiguration` got resolved: `credentials`
+Provider `secrets.toml` probed but not found the following locations:
+	- C:\Users\Vinithkumar.Perumal\OneDrive - insidemedia.net\Documents\dlt_ingestion_copy\dlt_ingestion - Copy\dlt-ingestion-framework\.dlt\secrets.toml
+	- C:\Users\Vinithkumar.Perumal\.dlt\secrets.toml
+WARNING: provider `secrets.toml` is empty. Locations (i.e., files) are missing or empty.
+Provider `config.toml` probed but not found the following locations:
+	- C:\Users\Vinithkumar.Perumal\.dlt\config.toml
+	- C:\Users\Vinithkumar.Perumal\OneDrive - insidemedia.net\Documents\dlt_ingestion_copy\dlt_ingestion - Copy\dlt-ingestion-framework\.dlt\config.toml
+WARNING: provider `config.toml` is empty. Locations (i.e., files) are missing or empty.
+
+Learn more: https://dlthub.com/docs/general-usage/credentials/
+"
+2026-01-12T21:29:04.716071,postgres_source.orders,FAILED,0,8.37,"Pipeline execution failed at `step=sync` with exception:
+
+<class 'dlt.common.exceptions.MissingDependencyException'>
+
+You must install additional dependencies to run `filesystem`. If you use pip you may do the following:
+
+pip install ""dlt[az]""
+"
+2026-01-12T21:29:04.859576,postgres_source.orders,FAILED,0,0.12,"Pipeline execution failed at `step=sync` with exception:
+
+<class 'dlt.common.exceptions.MissingDependencyException'>
+
+You must install additional dependencies to run `filesystem`. If you use pip you may do the following:
+
+pip install ""dlt[az]""
+"
+2026-01-12T21:32:06.380440,postgres_source.orders,FAILED,0,21.17,"Pipeline execution failed at `step=extract` when processing package with `load_id=1768233725.6955173` with exception:
+
+<class 'dlt.extract.exceptions.ResourceExtractionError'>
+In processing pipe `orders`: extraction of resource `orders` in `generator` `table_rows` caused an exception: 
+You must install additional dependencies to run `dlt pyarrow helpers`. If you use pip you may do the following:
+
+pip install ""dlt[parquet]""
+
+Install pyarrow to be allow to load arrow tables, panda frames and to use parquet files."
+2026-01-12T21:32:15.016955,postgres_source.orders,SUCCESS,0,8.59,
+2026-01-12T21:34:02.596990,postgres_source.orders,SUCCESS,0,7.86,
+2026-01-12T21:34:09.128413,postgres_source.orders,SUCCESS,0,6.52,

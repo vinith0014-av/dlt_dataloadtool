@@ -1,0 +1,92 @@
+{
+  "pipeline_name": "dlt_ingestion",
+  "total_jobs": 4,
+  "successful_jobs": 0,
+  "failed_jobs": 4,
+  "success_rate": 0.0,
+  "total_rows_processed": 0,
+  "total_duration_seconds": 21.19,
+  "average_rows_per_second": 0.0,
+  "jobs": [
+    {
+      "pipeline_name": "dlt_ingestion",
+      "job_name": "postgres_source.customers",
+      "start_time": "2026-02-12T01:00:44.060857",
+      "end_time": "2026-02-12T01:00:59.994311",
+      "status": "FAILED",
+      "duration_seconds": 15.93,
+      "rows_processed": 0,
+      "bytes_processed": 0,
+      "rows_per_second": 0.0,
+      "chunk_count": 0,
+      "retry_count": 0,
+      "error_count": 0,
+      "schema_version": 1,
+      "source_type": "postgresql",
+      "destination_type": "adls_gen2",
+      "custom_metrics": {
+        "error_message": "Job execution failed"
+      }
+    },
+    {
+      "pipeline_name": "dlt_ingestion",
+      "job_name": "postgres_source.orders",
+      "start_time": "2026-02-12T01:00:59.998177",
+      "end_time": "2026-02-12T01:01:01.181039",
+      "status": "FAILED",
+      "duration_seconds": 1.18,
+      "rows_processed": 0,
+      "bytes_processed": 0,
+      "rows_per_second": 0.0,
+      "chunk_count": 0,
+      "retry_count": 0,
+      "error_count": 0,
+      "schema_version": 1,
+      "source_type": "postgresql",
+      "destination_type": "adls_gen2",
+      "custom_metrics": {
+        "error_message": "Job execution failed"
+      }
+    },
+    {
+      "pipeline_name": "dlt_ingestion",
+      "job_name": "Source1.products",
+      "start_time": "2026-02-12T01:01:01.224043",
+      "end_time": "2026-02-12T01:01:02.913133",
+      "status": "FAILED",
+      "duration_seconds": 1.69,
+      "rows_processed": 0,
+      "bytes_processed": 0,
+      "rows_per_second": 0.0,
+      "chunk_count": 0,
+      "retry_count": 0,
+      "error_count": 0,
+      "schema_version": 1,
+      "source_type": "mssql",
+      "destination_type": "adls_gen2",
+      "custom_metrics": {
+        "error_message": "Job execution failed"
+      }
+    },
+    {
+      "pipeline_name": "dlt_ingestion",
+      "job_name": "coingecko.crypto_prices",
+      "start_time": "2026-02-12T01:01:02.922062",
+      "end_time": "2026-02-12T01:01:05.304260",
+      "status": "FAILED",
+      "duration_seconds": 2.38,
+      "rows_processed": 0,
+      "bytes_processed": 0,
+      "rows_per_second": 0.0,
+      "chunk_count": 0,
+      "retry_count": 0,
+      "error_count": 0,
+      "schema_version": 1,
+      "source_type": "api",
+      "destination_type": "adls_gen2",
+      "custom_metrics": {
+        "error_message": "Job execution failed"
+      }
+    }
+  ]
+}

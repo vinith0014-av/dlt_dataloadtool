@@ -1,0 +1,48 @@
+{
+  "pipeline_name": "dlt_ingestion",
+  "total_jobs": 2,
+  "successful_jobs": 2,
+  "failed_jobs": 0,
+  "success_rate": 1.0,
+  "total_rows_processed": 10006,
+  "total_duration_seconds": 26.68,
+  "average_rows_per_second": 375.05,
+  "jobs": [
+    {
+      "pipeline_name": "dlt_ingestion",
+      "job_name": "postgres_source.orders",
+      "start_time": "2026-02-12T01:18:23.363668",
+      "end_time": "2026-02-12T01:18:38.191815",
+      "status": "SUCCESS",
+      "duration_seconds": 14.83,
+      "rows_processed": 10003,
+      "bytes_processed": 0,
+      "rows_per_second": 674.6,
+      "chunk_count": 0,
+      "retry_count": 0,
+      "error_count": 0,
+      "schema_version": 1,
+      "source_type": "postgresql",
+      "destination_type": "adls_gen2",
+      "custom_metrics": {}
+    },
+    {
+      "pipeline_name": "dlt_ingestion",
+      "job_name": "Source1.users",
+      "start_time": "2026-02-12T01:18:38.206084",
+      "end_time": "2026-02-12T01:18:50.056720",
+      "status": "SUCCESS",
+      "duration_seconds": 11.85,
+      "rows_processed": 3,
+      "bytes_processed": 0,
+      "rows_per_second": 0.25,
+      "chunk_count": 0,
+      "retry_count": 0,
+      "error_count": 0,
+      "schema_version": 1,
+      "source_type": "mssql",
+      "destination_type": "adls_gen2",
+      "custom_metrics": {}
+    }
+  ]
+}

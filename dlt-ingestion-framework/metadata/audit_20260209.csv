@@ -1,0 +1,46 @@
+timestamp,job_name,status,rows_processed,duration_seconds,partition_path,error_message
+2026-02-09T11:22:38.219399,postgres_source.orders,FAILED,0,0.0,,Job execution failed
+2026-02-09T11:22:38.227417,postgres_source.orders,FAILED,0,0.0,,Job execution failed
+2026-02-09T11:22:38.237759,oracle_db.employees,FAILED,0,0.0,,Job execution failed
+2026-02-09T11:22:38.249007,Source1.users,FAILED,0,0.0,,Job execution failed
+2026-02-09T11:22:38.256192,coingecko.crypto_price,FAILED,0,0.0,,Job execution failed
+2026-02-09T11:42:29.236145,postgres_source.orders,FAILED,0,6.19,,Job execution failed
+2026-02-09T11:42:29.519178,postgres_source.orders,FAILED,0,0.24,,Job execution failed
+2026-02-09T11:42:35.028057,oracle_db.employees,FAILED,0,5.5,,Job execution failed
+2026-02-09T11:42:51.748017,Source1.users,FAILED,0,16.71,,Job execution failed
+2026-02-09T11:42:51.829380,coingecko.crypto_price,FAILED,0,0.08,,Job execution failed
+2026-02-09T11:43:53.585070,postgres_source.orders,FAILED,0,0.43,,Job execution failed
+2026-02-09T11:43:53.872185,postgres_source.orders,FAILED,0,0.27,,Job execution failed
+2026-02-09T11:43:54.377445,oracle_db.employees,FAILED,0,0.5,,Job execution failed
+2026-02-09T11:43:54.758050,Source1.users,FAILED,0,0.37,,Job execution failed
+2026-02-09T11:43:54.862731,coingecko.crypto_price,FAILED,0,0.1,,Job execution failed
+2026-02-09T11:45:00.685702,postgres_source.orders,FAILED,0,5.27,,Job execution failed
+2026-02-09T11:45:01.162938,postgres_source.orders,FAILED,0,0.47,,Job execution failed
+2026-02-09T11:45:03.356024,oracle_db.employees,FAILED,0,2.19,,Job execution failed
+2026-02-09T11:45:05.013491,Source1.users,FAILED,0,1.65,,Job execution failed
+2026-02-09T11:45:07.242690,coingecko.crypto_price,FAILED,0,2.22,,Job execution failed
+2026-02-09T11:47:04.508047,postgres_source.orders,SUCCESS,0,11.99,,
+2026-02-09T11:47:14.361992,postgres_source.orders,SUCCESS,3,9.83,,
+2026-02-09T11:47:25.803081,oracle_db.employees,SUCCESS,100,11.43,,
+2026-02-09T11:47:26.589583,Source1.users,FAILED,0,0.78,,Job execution failed
+2026-02-09T11:47:35.851094,coingecko.crypto_price,SUCCESS,0,9.25,,
+2026-02-09T11:51:28.011380,postgres_source.orders,SUCCESS,3,16.03,,
+2026-02-09T11:51:39.998218,postgres_source.orders,SUCCESS,3,11.98,,
+2026-02-09T11:51:49.351906,oracle_db.employees,SUCCESS,100,9.32,,
+2026-02-09T11:51:58.667778,Source1.users,SUCCESS,3,9.3,,
+2026-02-09T11:52:09.365323,coingecko.crypto_price,SUCCESS,0,10.68,,
+2026-02-09T12:25:29.301138,postgres_source.orders,SUCCESS,10003,18.5,,
+2026-02-09T12:25:43.004412,postgres_source.orders,SUCCESS,9942,13.61,,
+2026-02-09T12:25:53.887569,oracle_db.employees,SUCCESS,100,10.87,,
+2026-02-09T12:26:03.640480,Source1.users,SUCCESS,3,9.74,,
+2026-02-09T12:26:12.922475,coingecko.crypto_price,SUCCESS,0,9.27,,
+2026-02-09T12:35:24.550986,postgres_source.orders,SUCCESS,10003,14.19,,
+2026-02-09T12:35:36.486094,postgres_source.orders,SUCCESS,9942,11.92,,
+2026-02-09T12:35:46.572723,oracle_db.employees,SUCCESS,100,10.08,,
+2026-02-09T12:35:55.716469,Source1.users,SUCCESS,3,9.12,,
+2026-02-09T12:36:04.656035,coingecko.crypto_price,SUCCESS,0,8.93,,
+2026-02-09T12:57:06.716183,postgres_source.orders,SUCCESS,10003,13.25,,
+2026-02-09T12:57:15.894916,postgres_source.orders,SUCCESS,9942,9.16,,
+2026-02-09T12:57:15.900649,oracle_db.employees,SECRETS_INVALID,0,0,,Missing secret keys for oracle_db: ['database']
+2026-02-09T12:57:23.614659,Source1.users,SUCCESS,3,7.71,,
+2026-02-09T12:57:31.769028,coingecko.crypto_price,SUCCESS,0,8.15,,

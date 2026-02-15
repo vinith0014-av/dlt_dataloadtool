@@ -1,0 +1,70 @@
+{
+  "pipeline_name": "dlt_ingestion",
+  "total_jobs": 3,
+  "successful_jobs": 1,
+  "failed_jobs": 2,
+  "success_rate": 0.3333333333333333,
+  "total_rows_processed": 3,
+  "total_duration_seconds": 16.53,
+  "average_rows_per_second": 0.18,
+  "jobs": [
+    {
+      "pipeline_name": "dlt_ingestion",
+      "job_name": "postgres_source.orders",
+      "start_time": "2026-02-12T01:13:05.087184",
+      "end_time": "2026-02-12T01:13:08.404668",
+      "status": "FAILED",
+      "duration_seconds": 3.32,
+      "rows_processed": 0,
+      "bytes_processed": 0,
+      "rows_per_second": 0.0,
+      "chunk_count": 0,
+      "retry_count": 0,
+      "error_count": 0,
+      "schema_version": 1,
+      "source_type": "postgresql",
+      "destination_type": "adls_gen2",
+      "custom_metrics": {
+        "error_message": "Job execution failed"
+      }
+    },
+    {
+      "pipeline_name": "dlt_ingestion",
+      "job_name": "Source1.users",
+      "start_time": "2026-02-12T01:13:08.415325",
+      "end_time": "2026-02-12T01:13:19.704647",
+      "status": "SUCCESS",
+      "duration_seconds": 11.29,
+      "rows_processed": 3,
+      "bytes_processed": 0,
+      "rows_per_second": 0.27,
+      "chunk_count": 0,
+      "retry_count": 0,
+      "error_count": 0,
+      "schema_version": 1,
+      "source_type": "mssql",
+      "destination_type": "adls_gen2",
+      "custom_metrics": {}
+    },
+    {
+      "pipeline_name": "dlt_ingestion",
+      "job_name": "coingecko.crypto_prices",
+      "start_time": "2026-02-12T01:13:19.715828",
+      "end_time": "2026-02-12T01:13:21.636090",
+      "status": "FAILED",
+      "duration_seconds": 1.92,
+      "rows_processed": 0,
+      "bytes_processed": 0,
+      "rows_per_second": 0.0,
+      "chunk_count": 0,
+      "retry_count": 0,
+      "error_count": 0,
+      "schema_version": 1,
+      "source_type": "api",
+      "destination_type": "adls_gen2",
+      "custom_metrics": {
+        "error_message": "Job execution failed"
+      }
+    }
+  ]
+}

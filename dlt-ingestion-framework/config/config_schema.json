@@ -1,0 +1,122 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "DLT Ingestion Framework Configuration Schema",
+    "description": "Schema for validating ingestion_config.xlsx SourceConfig sheet",
+    "version": "2.1",
+    "required_columns": {
+        "SourceConfig": [
+            "source_type",
+            "source_name",
+            "table_name",
+            "load_type",
+            "enabled"
+        ]
+    },
+    "optional_columns": {
+        "SourceConfig": [
+            "job_id",
+            "schema_name",
+            "watermark_column",
+            "last_watermark",
+            "primary_key",
+            "chunk_size",
+            "query_filter",
+            "api_endpoint",
+            "target_container",
+            "target_folder_path",
+            "parallelism",
+            "retry_count",
+            "timeout_seconds"
+        ]
+    },
+    "valid_values": {
+        "source_type": [
+            "postgresql",
+            "oracle",
+            "mssql",
+            "azure_sql",
+            "api"
+        ],
+        "load_type": [
+            "FULL",
+            "INCREMENTAL"
+        ],
+        "enabled": [
+            "Y",
+            "N",
+            "y",
+            "n"
+        ]
+    },
+    "conditional_required": {
+        "INCREMENTAL": {
+            "required": [
+                "watermark_column"
+            ],
+            "optional": [
+                "last_watermark"
+            ]
+        },
+        "oracle": {
+            "required": [
+                "schema_name"
+            ]
+        },
+        "api": {
+            "optional": [
+                "api_endpoint"
+            ]
+        }
+    },
+    "column_types": {
+        "source_type": "string",
+        "source_name": "string",
+        "table_name": "string",
+        "schema_name": "string",
+        "load_type": "string",
+        "enabled": "string",
+        "watermark_column": "string",
+        "last_watermark": "string",
+        "primary_key": "string",
+        "chunk_size": "integer",
+        "query_filter": "string",
+        "api_endpoint": "string",
+        "target_container": "string",
+        "target_folder_path": "string",
+        "parallelism": "integer",
+        "retry_count": "integer",
+        "timeout_seconds": "integer"
+    },
+    "validation_rules": {
+        "table_name": {
+            "pattern": "^[a-zA-Z_][a-zA-Z0-9_]*$",
+            "max_length": 128
+        },
+        "source_name": {
+            "pattern": "^[a-zA-Z_][a-zA-Z0-9_-]*$",
+            "max_length": 64
+        },
+        "chunk_size": {
+            "min": 1000,
+            "max": 10000000,
+            "default": 100000
+        },
+        "retry_count": {
+            "min": 0,
+            "max": 10,
+            "default": 3
+        },
+        "timeout_seconds": {
+            "min": 30,
+            "max": 86400,
+            "default": 3600
+        }
+    },
+    "defaults": {
+        "load_type": "FULL",
+        "enabled": "Y",
+        "chunk_size": 100000,
+        "retry_count": 3,
+        "timeout_seconds": 3600
+    }
+}
