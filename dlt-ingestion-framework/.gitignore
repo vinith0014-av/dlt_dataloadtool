@@ -48,3 +48,14 @@ config/secrets.toml
 
 # Backup folders
 ../dlt_backup_*/
+
+# Test/utility scripts with hardcoded test credentials (not for production)
+check_tables.py
+check_*.py
+create_sample_data.py
+test_models_quick.py
+test_rest_api_quick.py
+test_type_adapters_quick.py
+test_connectivity.py
+quick_validate.py
+validate_framework.py
